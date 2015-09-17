@@ -1,0 +1,70 @@
+body {
+    background-color: #fd9996;
+    font-family: angryBirds;
+}
+#circle {
+	
+	height: 50px;
+	width: 80px;
+	color: red;
+	font-size: large;
+	border-radius: 50%;
+	border-top: 10%;
+}
+#time {
+	border: #000000 5px solid;
+	border-radius:50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#win{
+	margin: 2% 37.1%;
+}
+#lose {
+    margin: 2% 39%;
+}
+
+@font-face {
+    font-family: "angryBirds";
+    src: url("fonts/angrybirds.ttf");
+}
+#playAgain {
+    background-color: #79cefc;
+    border-color: white;
+    border-radius: 10%;
+    border-width: 5px;
+    color: white;
+    float: left;
+    font-family: angryBirds;
+    font-size: 100%;
+    margin: -2% 42%;
+    position: relative;
+}
+#grid {
+    background-color: #79cefc;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 10px;
+    margin: 15px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    table-layout: fixed;
+}
+td {
+    background-color: #aaaaaa;
+    border: 5px solid black;
+    padding: 25px;
+}
+h3 {
+    color: black;
+    float: left;
+    font-family: angryBirds;
+    font-size: 50px;
+    font-variant: small-caps;
+    margin: 5% 37%;
+    text-align: center;
+}
+
